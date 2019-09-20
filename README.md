@@ -1,1 +1,1 @@
-# PICO_API_2.0
+# API 2.0 for the most recent state-of-the-art PICO annotation model
