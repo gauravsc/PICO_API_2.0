@@ -1,1 +1,1 @@
-# API 2.0 for the most recent state-of-the-art PICO annotation model
+# API 2.0 for the most recent state-of-the-art model for automated PICO annotation. It is based on pre-training a bidirectional encoder on MeSH tagging task, followed by fine-tuning using artificial and real data on the PICO annotation task. 
