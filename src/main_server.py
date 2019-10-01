@@ -16,12 +16,12 @@ def get_concepts():
 
 	# get the assigned labels
 	result = pico_model.predict(data)
-	
+
 	# return the result
 	return json.dumps(result)
 
 if __name__ == '__main__':
     
-    app.run(debug=True)
+    app.run('0.0.0.0', 8080, debug=True)
 
     
