@@ -21,7 +21,7 @@ def get_concepts():
 	return json.dumps(result)
 
 if __name__ == '__main__':
-    
+	print ("Run the server ...")
     app.run(host='0.0.0.0', port=5000, debug=True)
 
     
