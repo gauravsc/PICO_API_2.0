@@ -27,7 +27,7 @@ class PICOModel:
 			vocab += [triplet[2] for triplet in sample['outcome condition'] if triplet[2] != "NULL"]
 		idx_to_cui = list(set(vocab))
 		idx_to_cui = sorted(idx_to_cui)
-		print(idx_to_cui)
+		# print(idx_to_cui)
 
 		cui_to_idx = {}
 		for idx, cui in enumerate(idx_to_cui):

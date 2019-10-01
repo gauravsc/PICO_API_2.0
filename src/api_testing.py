@@ -2,7 +2,8 @@ import requests
 import json
 
 # api-endpoint 
-URL = "http://127.0.0.1:5000/api/pico/concepts"
+# URL = "http://52.178.218.172:5000/api/pico/concepts"
+URL = "http://52.178.218.172:5000/api/pico/concepts"
 
 # load the train data file
 data = json.load(open('../data/data_with_cuis.json','r')) 
@@ -22,8 +23,5 @@ headers ={
 # sending get request and saving the response as response object 
 res = requests.post(url=URL, data=json.dumps(data), headers=headers) 
 
-
-
-  
 # return results 
 print (res.text)

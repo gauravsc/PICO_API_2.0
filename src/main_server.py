@@ -16,6 +16,7 @@ def get_concepts():
 
 	# get the assigned labels
 	result = pico_model.predict(data)
+	
 	# return the result
 	return json.dumps(result)
 
