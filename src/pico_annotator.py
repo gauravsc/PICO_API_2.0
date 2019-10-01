@@ -124,7 +124,7 @@ class PICOModel:
 		self.dropout = 0.1
 		
 		# threshold to use for classification
-		self.threshold = 0.4
+		self.threshold = 0.3
 
 		self.model = BERTCLassifierModelAspect(self.n_tgt_vocab, dropout=self.dropout)
 		# model = nn.DataParallel(model, output_device=device)
